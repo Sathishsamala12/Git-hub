@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'C:\\apache-tomcat-8.5.72\\webapps'
-   def tomcatBin = 'C:\\apache-tomcat-8.5.72\\bin'
+   def tomcatWeb = 'C:\\apache-tomcat-8.5.73\\webapps'
+   def tomcatBin = 'C:\\apache-tomcat-8.5.73\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/Sathishsamala12/Git-hub.git'
